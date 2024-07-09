@@ -59,9 +59,9 @@ function takeCommand(message) {
     }else if (message.includes("open instagram")) {
         window.open("https://www.instagram.com/explore/people/", "_blank");
         speak("Opening instagram...");
-    } else if (message.includes("open whatsapp")) {
-        window.open("https://www.whatsapp.com/", "_blank");
-        speak("Opening whatsapp...");
+    } else if (message.includes("open Telegram")) {
+        window.open("https://web.telegram.org/", "_blank");
+        speak("Opening Telegram...");
     } else if (message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "This is what I found on the internet regarding " + message;
