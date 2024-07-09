@@ -57,10 +57,10 @@ function takeCommand(message) {
         window.open("https://chat.openai.com/", "_blank");
         speak("Opening chatgpt...");
     }else if (message.includes("open instagram")) {
-        window.open("https://instagram.com/", "_blank");
+        window.open("https://www.instagram.com/explore/people/", "_blank");
         speak("Opening instagram...");
     } else if (message.includes("open whatsapp")) {
-        window.open("https://whatsapp.com", "_blank");
+        window.open("https://www.whatsapp.com/", "_blank");
         speak("Opening whatsapp...");
     } else if (message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
